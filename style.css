@@ -1,0 +1,141 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 130vh;
+}
+
+#fish1 {
+height: clamp(200px, 25vw, 1000px);
+}
+
+#fish2 {
+width: clamp(150px, 15vw, 1000px);
+}
+
+#fish3 {
+width: clamp(150px, 25vw, 1000px);
+}
+
+#fish4 {
+width: clamp(150px, 13vw, 1000px);
+}
+
+#fish5 {
+height: clamp(200px, 30vw, 1000px);
+}
+
+#fish6 {
+width: clamp(150px, 15vw, 1000px);
+}
+
+#fish7 {
+height: clamp(200px, 40vw, 1000px);
+}
+
+#fish8 {
+width: clamp(150px, 20vw, 1000px);
+}
+
+#fish9 {
+width: clamp(150px, 30vw, 1000px);
+}
+
+#fish10 {
+width: clamp(100px, 7vw, 1000px);
+}
+
+#fish11 {
+width: clamp(150px, 30vw, 1000px);
+}
+
+#fish12 {
+width: clamp(150px, 17vw, 1000px);
+}
+
+#fish13 {
+width: clamp(150px, 12vw, 1000px);
+}
+
+#fish14 {
+height: clamp(200px, 20vw, 1000px);
+}
+
+#fish15 {
+width: clamp(150px, 20vw, 1000px);
+}
+
+#fish16 {
+width: clamp(150px, 15vw, 1000px);
+}
+
+#fish17 {
+width: clamp(150px, 15vw, 1000px);
+}
+
+#fish18 {
+height: clamp(200px, 20vw, 1000px);
+}
+
+#fish19 {
+width: clamp(150px, 10vw, 1000px);
+}
+
+#fish20 {
+width: clamp(150px, 15vw, 1000px);
+}
+
+#fish29 {
+width: clamp(150px, 18vw, 1000px);
+}
+
+#fish43 {
+width: clamp(150px, 13vw, 1000px);
+}
+
+#fish46 {
+width: clamp(150px, 20vw, 1000px);
+}
+
+#fish49 {
+height: clamp(200px, 50vw, 1000px);
+}
+
+#fish50 {
+width: clamp(150px, 15vw, 1000px);
+}
+
+#fish51 {
+width: clamp(150px, 40vw, 1000px);
+}
+
+marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+div.scroll-container {
+  background-color: #333333c5;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  position: sticky;
+  width: 50vw;
+  top: 0;
+}
+
+.hide{
+        display: none;
+    }
+
+ .activated{
+    background-color: rgb(112, 255, 255);
+ }
+
+ button{
+        color: black;
+        background-color: rgb(33, 101, 74);
+        border-radius: 20%;
+    }
